@@ -2,7 +2,7 @@ docs/
 src/
 test/
 .prettierrc
-.pretiierignore
+.prettierignore
 .gitignore
 tsconfig.json
 typedoc.js

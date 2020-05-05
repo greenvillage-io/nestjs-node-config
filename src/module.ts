@@ -1,7 +1,7 @@
 import { Global, Inject, Module } from '@nestjs/common';
 import config from 'config';
 
-export const CONFIG_TOKEN = 'config';
+import { CONFIG_TOKEN } from './constants';
 
 export const configProvider = {
     provide: CONFIG_TOKEN,
