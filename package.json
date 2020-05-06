@@ -4,7 +4,7 @@
     "description": "The nestjs node-config package",
     "author": "Alex Hermann <alex.hermann@pop-code.com>",
     "repository": "https://github.com/Pop-Code/nestjs-node-config",
-    "main": "dist/index.js",
+    "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
         "build": "rm -Rf ./dist && tsc",
