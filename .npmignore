@@ -17,3 +17,5 @@ renovate.json
 .github/
 dist/test/
 config/
+coverage/
+.eslintignore

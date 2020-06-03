@@ -1,8 +1,2 @@
 **/node_modules/**
-**/build/**
-**/lib/**
-
-packages/client/**
-
-#ignore generated types
-packages/types/src/graphql.ts
+**/dist/**
