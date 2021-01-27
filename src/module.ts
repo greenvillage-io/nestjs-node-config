@@ -3,11 +3,6 @@ import * as config from 'config';
 
 import { CONFIG_TOKEN } from './constants';
 
-process.env.NODE_CONFIG = JSON.stringify({
-    test: { foo: "bar", bar: "foo" }
-});
-
-
 export const configProvider = {
     provide: CONFIG_TOKEN,
     useValue: config

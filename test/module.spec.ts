@@ -1,7 +1,7 @@
 import { INestApplication } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 
-import { getConfigToken, IConfig, NodeConfigModule } from '../module';
+import { getConfigToken, IConfig, NodeConfigModule } from '../src/module';
 
 let app: INestApplication;
 

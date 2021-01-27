@@ -1,6 +1,6 @@
 {
     "name": "nestjs-node-config",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "The nestjs node-config package",
     "author": "Alex Hermann <alex.hermann@pop-code.com>",
     "repository": "https://github.com/Pop-Code/nestjs-node-config",
@@ -9,10 +9,10 @@
     "scripts": {
         "build": "rm -Rf ./dist && tsc",
         "doc": "rm -Rf ./docs && typedoc ./src && touch ./docs/.nojekyll",
-        "test": "NODE_CONFIG_DIR=src/test/config jest",
-        "test:watch": "NODE_CONFIG_DIR=src/test/config jest --watch",
-        "test:cov": "NODE_CONFIG_DIR=src/test/config jest --coverage",
-        "test:debug": "NODE_CONFIG_DIR=src/test/config node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:cov": "jest --coverage",
+        "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest",
         "lint": "eslint ./src/**/*.ts",
         "format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write && git status"
     },
@@ -57,13 +57,13 @@
             "json",
             "ts"
         ],
-        "rootDir": "src",
+        "rootDir": ".",
         "testRegex": ".spec.ts$",
         "transform": {
             "^.+\\.(t|j)s$": "ts-jest"
         },
         "collectCoverageFrom": [
-            "**/*.{js,jsx,ts}",
+            "src/**/*.{js,jsx,ts}",
             "!index.ts",
             "!**/test/**"
         ],
