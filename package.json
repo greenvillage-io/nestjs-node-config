@@ -17,7 +17,7 @@
         "format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write && git status"
     },
     "dependencies": {
-        "config": "3.3.1"
+        "config": "3.3.6"
     },
     "peerDependencies": {
         "@nestjs/common": "^6 || ^7"
