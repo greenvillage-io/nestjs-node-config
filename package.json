@@ -1,5 +1,5 @@
 {
-    "name": "nestjs-node-config",
+    "name": "@greenvillage-io/nestjs-node-config",
     "version": "0.0.5",
     "description": "The nestjs node-config package",
     "repository": "https://github.com/greenvillage-io/nestjs-node-config",
