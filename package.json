@@ -12,7 +12,7 @@
         "registry": "https://npm.pkg.github.com/"
     },
     "scripts": {
-        "build": "rm -Rf ./dist && tsc",
+        "build": "rm -Rf ./dist && tsc -b tsconfig.build.json",
         "doc": "rm -Rf ./docs && typedoc ./src && touch ./docs/.nojekyll",
         "test": "jest",
         "test:watch": "jest --watch",
