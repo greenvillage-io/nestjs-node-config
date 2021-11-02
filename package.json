@@ -1,6 +1,6 @@
 {
     "name": "@greenvillage-io/nestjs-node-config",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "The nestjs node-config package",
     "repository": "https://github.com/greenvillage-io/nestjs-node-config",
     "main": "./dist/index.js",
